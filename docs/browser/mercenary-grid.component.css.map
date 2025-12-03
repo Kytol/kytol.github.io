@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;fdfc624dd670ec8824e7a4b51ca869e7c0f0b1101ef3da429d47c9508f8b1872;C:/Users/janne/Desktop/New folder/projects/raid-squad/src/app/components/mercenary-grid/mercenary-grid.component.ts"],
+  "sourcesContent": ["\n    .mercenary-grid {\n      display: grid;\n      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));\n      gap: 20px;\n    }\n    .empty-state {\n      grid-column: 1 / -1;\n      text-align: center;\n      padding: 60px 20px;\n      background: var(--bg-card);\n      border: 2px dashed var(--border-secondary);\n      border-radius: 12px;\n    }\n    .empty-icon { font-size: 4rem; display: block; margin-bottom: 16px; }\n    .empty-state h3 { color: var(--text-primary); margin: 0 0 8px; }\n    .empty-state p { color: var(--text-muted); margin: 0; }\n  "],
+  "mappings": ";AACI,CAAC;AACC,WAAS;AACT,yBAAuB,OAAO,SAAS,EAAE,OAAO,KAAK,EAAE;AACvD,OAAK;AACP;AACA,CAAC;AACC,eAAa,EAAE,EAAE;AACjB,cAAY;AACZ,WAAS,KAAK;AACd,cAAY,IAAI;AAChB,UAAQ,IAAI,OAAO,IAAI;AACvB,iBAAe;AACjB;AACA,CAAC;AAAa,aAAW;AAAM,WAAS;AAAO,iBAAe;AAAM;AACpE,CATC,YASY;AAAK,SAAO,IAAI;AAAiB,UAAQ,EAAE,EAAE;AAAK;AAC/D,CAVC,YAUY;AAAI,SAAO,IAAI;AAAe,UAAQ;AAAG;",
+  "names": []
+}

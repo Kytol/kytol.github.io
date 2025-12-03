@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;50b4cbff6c9df47e04dd5029005f2cb56549a3c3d621f0a6a653b08553e90737;C:/Users/janne/Desktop/New folder/projects/raid-squad/src/app/components/stats-header/stats-header.component.ts"],
+  "sourcesContent": ["\n    .stats-header {\n      display: flex;\n      gap: 16px;\n      margin-bottom: 24px;\n      flex-wrap: wrap;\n    }\n    .stat-item {\n      flex: 1;\n      min-width: 140px;\n      background: var(--bg-card);\n      border: 2px solid var(--border-primary);\n      border-radius: 12px;\n      padding: 16px 20px;\n      text-align: center;\n    }\n    .stat-item.available { border-color: #4c9a6b; }\n    .stat-item.hired { border-color: #6b4c9a; }\n    .stat-item.mission { border-color: #9a6b4c; }\n    .stat-value {\n      display: block;\n      font-size: 2rem;\n      font-weight: bold;\n      color: var(--accent-gold);\n    }\n    .stat-label {\n      display: block;\n      font-size: 0.85rem;\n      color: var(--text-secondary);\n      margin-top: 4px;\n    }\n  "],
+  "mappings": ";AACI,CAAC;AACC,WAAS;AACT,OAAK;AACL,iBAAe;AACf,aAAW;AACb;AACA,CAAC;AACC,QAAM;AACN,aAAW;AACX,cAAY,IAAI;AAChB,UAAQ,IAAI,MAAM,IAAI;AACtB,iBAAe;AACf,WAAS,KAAK;AACd,cAAY;AACd;AACA,CATC,SASS,CAAC;AAAY,gBAAc;AAAS;AAC9C,CAVC,SAUS,CAAC;AAAQ,gBAAc;AAAS;AAC1C,CAXC,SAWS,CAAC;AAAU,gBAAc;AAAS;AAC5C,CAAC;AACC,WAAS;AACT,aAAW;AACX,eAAa;AACb,SAAO,IAAI;AACb;AACA,CAAC;AACC,WAAS;AACT,aAAW;AACX,SAAO,IAAI;AACX,cAAY;AACd;",
+  "names": []
+}

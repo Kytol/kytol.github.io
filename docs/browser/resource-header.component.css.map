@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;55a8a4839c52ccfb5a7567971af6fd277c13d49203c78535d28d785731394db6;C:/Users/janne/Desktop/New folder/projects/raid-squad/src/app/components/resource-header/resource-header.component.ts"],
+  "sourcesContent": ["\n    .resource-header {\n      display: flex;\n      gap: 16px;\n      background: var(--bg-card);\n      border: 2px solid var(--border-primary);\n      border-radius: 30px;\n      padding: 8px 20px;\n    }\n    .resource {\n      display: flex;\n      align-items: center;\n      gap: 6px;\n      padding: 4px 12px;\n      border-radius: 20px;\n      background: var(--card-overlay);\n    }\n    .icon { font-size: 1.1rem; }\n    .amount { font-weight: bold; font-size: 0.95rem; }\n    .label { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; }\n    .resource.gold .amount { color: #ffd700; }\n    .resource.gems .amount { color: #5ac4c4; }\n    .resource.souls .amount { color: #a35ac4; }\n  "],
+  "mappings": ";AACI,CAAC;AACC,WAAS;AACT,OAAK;AACL,cAAY,IAAI;AAChB,UAAQ,IAAI,MAAM,IAAI;AACtB,iBAAe;AACf,WAAS,IAAI;AACf;AACA,CAAC;AACC,WAAS;AACT,eAAa;AACb,OAAK;AACL,WAAS,IAAI;AACb,iBAAe;AACf,cAAY,IAAI;AAClB;AACA,CAAC;AAAO,aAAW;AAAQ;AAC3B,CAAC;AAAS,eAAa;AAAM,aAAW;AAAS;AACjD,CAAC;AAAQ,aAAW;AAAQ,SAAO,IAAI;AAAe,kBAAgB;AAAW;AACjF,CAXC,QAWQ,CAAC,KAAK,CAFd;AAEwB,SAAO;AAAS;AACzC,CAZC,QAYQ,CAAC,KAAK,CAHd;AAGwB,SAAO;AAAS;AACzC,CAbC,QAaQ,CAAC,MAAM,CAJf;AAIyB,SAAO;AAAS;",
+  "names": []
+}
