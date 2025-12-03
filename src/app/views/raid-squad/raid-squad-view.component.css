@@ -1,0 +1,125 @@
+.raid-squad-wrapper {
+  min-height: calc(100vh - 60px);
+  background: linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 50%, var(--bg-primary) 100%);
+}
+
+.app-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 40px 20px;
+  background: var(--header-gradient);
+  border-radius: 16px;
+  border: 1px solid var(--header-border);
+  transition: all 0.4s;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-actions {
+  display: flex;
+  gap: 12px;
+}
+
+header h1 {
+  color: var(--accent-gold);
+  font-size: 3rem;
+  margin: 0;
+  text-shadow: 0 0 30px rgba(255, 215, 0, 0.4);
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  color: #9a6b4c;
+  font-size: 1.3rem;
+  margin: 8px 0 0;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.tagline {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin: 16px 0 0;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+  background: var(--bg-card);
+  padding: 8px;
+  border-radius: 12px;
+  border: 2px solid var(--border-primary);
+}
+
+.tab {
+  flex: 1;
+  padding: 14px 16px;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.tab:hover {
+  background: var(--card-overlay);
+  color: var(--text-primary);
+}
+
+.tab.active {
+  background: var(--accent-gold);
+  color: #000;
+}
+
+.tab .badge {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: #c45a5a;
+  color: #fff;
+  font-size: 0.7rem;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab .badge.online {
+  background: #5ac47a;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 24px;
+}
+
+.squad-layout {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .main-content { grid-template-columns: 1fr; }
+  header h1 { font-size: 2rem; }
+  .tabs { flex-direction: column; }
+  .header-top { flex-direction: column; gap: 12px; }
+}
